@@ -1,6 +1,6 @@
 streamlit
 pandas
 base58
-subprocess
+subprocess-dev
 !pip install --os
 !pip install --pickle
