@@ -52,10 +52,10 @@ This app allows you to predict the bioactivity towards inhibting the `Human Cycl
 """)
 
 # Sidebar
-with st.sidebar.header('1. Upload your CSV data'):
+with st.sidebar.header('1. Upload your smiles data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
+[See example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
 """)
 
 if st.sidebar.button('Predict'):
