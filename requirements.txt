@@ -1,6 +1,1 @@
-streamlit
-pandas
-base58
-subprocess-dev
-pip install --os
-pip install --pickle
+streamlit==0.71.0
